@@ -1,0 +1,35 @@
+[33m8ee5637[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Initial commit
+ Raksha-Bandhan/.gitignore                          |   24 [32m+[m
+ Raksha-Bandhan/README.md                           |   16 [32m+[m
+ Raksha-Bandhan/eslint.config.js                    |   21 [32m+[m
+ Raksha-Bandhan/index.html                          |   13 [32m+[m
+ Raksha-Bandhan/package-lock.json                   | 2365 [32m++++++++++++++++++++[m
+ Raksha-Bandhan/package.json                        |   27 [32m+[m
+ Raksha-Bandhan/public/favicon.svg                  |    1 [32m+[m
+ Raksha-Bandhan/public/icons.svg                    |   24 [32m+[m
+ Raksha-Bandhan/src/App.css                         |   13 [32m+[m
+ Raksha-Bandhan/src/App.jsx                         |   12 [32m+[m
+ Raksha-Bandhan/src/assets/hero.png                 |  Bin [31m0[m -> [32m13057[m bytes
+ .../assets/images/brothersistertogether.png.jpeg   |  Bin [31m0[m -> [32m71645[m bytes
+ .../src/assets/images/childhood.png.jpeg           |  Bin [31m0[m -> [32m71645[m bytes
+ Raksha-Bandhan/src/assets/images/festival.png      |  Bin [31m0[m -> [32m443861[m bytes
+ Raksha-Bandhan/src/assets/images/fun.jpeng.png     |  Bin [31m0[m -> [32m200700[m bytes
+ Raksha-Bandhan/src/assets/images/gift.png          |  Bin [31m0[m -> [32m52128[m bytes
+ Raksha-Bandhan/src/assets/images/heart.png.jpeg    |  Bin [31m0[m -> [32m141767[m bytes
+ Raksha-Bandhan/src/assets/react.svg                |    1 [32m+[m
+ Raksha-Bandhan/src/assets/vite.svg                 |    1 [32m+[m
+ Raksha-Bandhan/src/components/Hero/Hero.css        |   59 [32m+[m
+ Raksha-Bandhan/src/components/Hero/Hero.jsx        |   28 [32m+[m
+ .../src/components/Memories/Memories.css           |  118 [32m+[m
+ .../src/components/Memories/Memories.jsx           |   78 [32m+[m
+ Raksha-Bandhan/src/components/Navbar/Navbar.css    |   57 [32m+[m
+ Raksha-Bandhan/src/components/Navbar/Navbar.jsx    |   31 [32m+[m
+ Raksha-Bandhan/src/components/Special/Special.css  |  117 [32m+[m
+ Raksha-Bandhan/src/components/Special/Special.jsx  |   50 [32m+[m
+ .../src/components/Surprise/Surprise.css           |  162 [32m++[m
+ .../src/components/Surprise/Surprise.jsx           |  135 [32m++[m
+ Raksha-Bandhan/src/index.css                       |   24 [32m+[m
+ Raksha-Bandhan/src/main.jsx                        |   10 [32m+[m
+ Raksha-Bandhan/src/pages/Home.jsx                  |   26 [32m+[m
+ Raksha-Bandhan/vite.config.js                      |    7 [32m+[m
+ 33 files changed, 3420 insertions(+)
