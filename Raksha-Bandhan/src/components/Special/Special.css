@@ -1,0 +1,117 @@
+.special {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 80px 10%;
+  box-sizing: border-box;
+}
+
+/* Left Content */
+
+.special-section {
+  flex: 1;
+  max-width: 600px;
+}
+
+.special-section h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.special-section h2 {
+  font-size: 26px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.special-section p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+/* Points */
+
+.special-points {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.special-points li {
+  font-size: 17px;
+  margin: 12px 0;
+}
+
+/* Button */
+
+.special-section button {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.special-section button:hover {
+  transform: scale(1.08);
+}
+
+/* Image */
+
+.special-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.special-image img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 25px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.special-image img:hover {
+  transform: scale(1.05);
+}
+
+/* 📱 Mobile Responsive */
+
+@media (max-width: 768px) {
+  .special {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .special-section {
+    max-width: 100%;
+  }
+
+  .special-section h1 {
+    font-size: 36px;
+  }
+
+  .special-section h2 {
+    font-size: 22px;
+  }
+
+  .special-section p {
+    font-size: 16px;
+  }
+
+  .special-points {
+    text-align: left;
+    display: inline-block;
+  }
+
+  .special-image img {
+    max-width: 350px;
+  }
+}

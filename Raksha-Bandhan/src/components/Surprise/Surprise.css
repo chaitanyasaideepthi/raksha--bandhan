@@ -1,0 +1,162 @@
+.surprise-section {
+  min-height: 100vh;
+  text-align: center;
+  padding: 60px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 🎁 Gift Section */
+
+.gift-section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.gift-image {
+  width: 220px;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gift-image:hover {
+  transform: scale(1.1);
+}
+
+.gift-section button,
+.letter-section button {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* 💌 Letter Section */
+
+.letter-section h1,
+.final-surprise h1 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.envelope {
+  font-size: 120px;
+  margin: 20px;
+  animation: envelopeBounce 1.5s infinite;
+}
+
+@keyframes envelopeBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+/* 🎊 Confetti */
+
+.confetti {
+  font-size: 35px;
+  margin: 20px 0;
+  animation: confettiMove 1s infinite alternate;
+}
+
+@keyframes confettiMove {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-15px);
+  }
+}
+
+/* ❤️ Final Message */
+
+.letter-message {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 35px;
+  border-radius: 25px;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.letter-message h2 {
+  font-size: 30px;
+}
+
+.letter-message h3 {
+  margin-top: 25px;
+}
+
+/* ❤️ Floating Hearts */
+
+.heart-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.heart-container span {
+  position: absolute;
+  bottom: -50px;
+  font-size: 30px;
+  animation: floatHeart 5s linear infinite;
+}
+
+.heart-container span:nth-child(1) {
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.heart-container span:nth-child(2) {
+  left: 25%;
+  animation-delay: 1s;
+}
+
+.heart-container span:nth-child(3) {
+  left: 40%;
+  animation-delay: 2s;
+}
+
+.heart-container span:nth-child(4) {
+  left: 60%;
+  animation-delay: 0.5s;
+}
+
+.heart-container span:nth-child(5) {
+  left: 75%;
+  animation-delay: 1.5s;
+}
+
+.heart-container span:nth-child(6) {
+  left: 90%;
+  animation-delay: 2.5s;
+}
+
+@keyframes floatHeart {
+  0% {
+    transform: translateY(0) scale(0.8);
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-100vh) scale(1.4);
+    opacity: 0;
+  }
+}
